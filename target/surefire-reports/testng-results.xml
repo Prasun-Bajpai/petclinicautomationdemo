@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PetClinicUITestSuite" duration-ms="12473" started-at="2021-04-20T05:39:02Z" finished-at="2021-04-20T05:39:15Z">
+    <groups>
+    </groups>
+    <test name="PetClinic Tests" duration-ms="12473" started-at="2021-04-20T05:39:02Z" finished-at="2021-04-20T05:39:15Z">
+      <class name="com.petclinic.tests.PetClinicWorkflowTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petclinic.tests.PetClinicWorkflowTest@77b52d12]" name="setUp" is-config="true" duration-ms="4544" started-at="2021-04-20T11:09:02Z" finished-at="2021-04-20T11:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testIfImageIsSameAsExpected()[pri:0, instance:com.petclinic.tests.PetClinicWorkflowTest@77b52d12]" name="testIfImageIsSameAsExpected" duration-ms="1412" started-at="2021-04-20T11:09:07Z" description="This test verifies if image is present on welcome page and it&#039;s the expected image" finished-at="2021-04-20T11:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfImageIsSameAsExpected -->
+        <test-method status="PASS" signature="testToFindAllExistingOwners()[pri:0, instance:com.petclinic.tests.PetClinicWorkflowTest@77b52d12]" name="testToFindAllExistingOwners" duration-ms="1522" started-at="2021-04-20T11:09:08Z" description="This test verifies if all the owners with respect to there telephone numbers in owners page" finished-at="2021-04-20T11:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToFindAllExistingOwners -->
+        <test-method status="PASS" signature="testToFindAllVeterinarians()[pri:0, instance:com.petclinic.tests.PetClinicWorkflowTest@77b52d12]" name="testToFindAllVeterinarians" duration-ms="810" started-at="2021-04-20T11:09:10Z" description="This test verifies if all the list of veterinarians contains all veterinarians names" finished-at="2021-04-20T11:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToFindAllVeterinarians -->
+        <test-method status="PASS" signature="testToVerifyAddNewOwner()[pri:0, instance:com.petclinic.tests.PetClinicWorkflowTest@77b52d12]" name="testToVerifyAddNewOwner" duration-ms="2209" started-at="2021-04-20T11:09:10Z" description="This test verifies if a new owner can be added via owners page" finished-at="2021-04-20T11:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyAddNewOwner -->
+        <test-method status="PASS" signature="testToVerifyAddedInformation()[pri:0, instance:com.petclinic.tests.PetClinicWorkflowTest@77b52d12]" name="testToVerifyAddedInformation" duration-ms="437" started-at="2021-04-20T11:09:13Z" description="This test verifies the information of a new owner and pet" depends-on-methods="com.petclinic.tests.PetClinicWorkflowTest.testToVerifyAddNewOwner" finished-at="2021-04-20T11:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyAddedInformation -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.petclinic.tests.PetClinicWorkflowTest@77b52d12]" name="cleanUp" is-config="true" duration-ms="1504" started-at="2021-04-20T11:09:13Z" finished-at="2021-04-20T11:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.petclinic.tests.PetClinicWorkflowTest -->
+    </test> <!-- PetClinic Tests -->
+  </suite> <!-- PetClinicUITestSuite -->
+</testng-results>

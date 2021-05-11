@@ -1,0 +1,10 @@
+<suite name="PetClinicUITestSuite" verbose ="5">
+    <listeners>
+        <listener class-name="com.petclinic.shared.util.TestListener" />
+    </listeners>
+    <test name="PetClinic Tests">
+        <classes>
+            <class name="com.petclinic.tests.PetClinicWorkflowTest"></class>
+        </classes>
+    </test>
+</suite>

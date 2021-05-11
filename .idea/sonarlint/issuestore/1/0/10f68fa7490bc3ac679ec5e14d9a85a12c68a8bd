@@ -1,0 +1,9 @@
+
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(±ÁÌäøÿÿÿÿ
+Csquid:S1068".Remove this unused "PAGE_TITLE" private field.(÷®š›
+fsquid:UselessImportCheck"?Remove this unused import 'com.petclinic.shared.base.TestBase'.(Ôªƒ½ùÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(Ô‰¦üÿÿÿÿ
+Nsquid:S1068"9Remove this unused "LIST_OF_VETERINARIANS" private field.(»Õ…“
+a$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(Ô‰¦üÿÿÿÿ
+Bsquid:S1068"(Remove this unused "NAME" private field.(ÓÇ±–ıÿÿÿÿ
+a$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(±ÁÌäøÿÿÿÿ

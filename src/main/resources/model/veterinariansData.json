@@ -1,0 +1,28 @@
+{
+  "veterinarians": [
+    {
+      "name": "James Carter",
+      "speciality": "none"
+    },
+    {
+      "name": "Helen Leary",
+      "speciality": "radiology"
+    },
+    {
+      "name": "Linda Douglas",
+      "speciality": "dentistry surgery"
+    },
+    {
+      "name": "Rafael Ortega",
+      "speciality": "surgery"
+    },
+    {
+      "name": "Henry Stevens",
+      "speciality": "radiology"
+    },
+    {
+      "name": "Sharon Jenkins",
+      "speciality": "none"
+    }
+  ]
+}

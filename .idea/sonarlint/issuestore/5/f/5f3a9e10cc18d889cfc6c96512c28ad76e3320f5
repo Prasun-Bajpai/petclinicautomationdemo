@@ -1,0 +1,12 @@
+
+isquid:S3008"ORename this field "Size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¯°öıÿÿÿÿ
+Hsquid:S1068".Remove this unused "PAGE_TITLE" private field.(º ûòùÿÿÿÿ
+Hsquid:S1068"3Remove this unused "telephoneNumber" private field.(„òÂ‚
+hsquid:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(Ë¥¼
+\$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(²Âîã
+\$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(ÕŞÒÚ
+€squid:S1488"fImmediately return this expression instead of assigning it to the temporary variable "petInformation".(êëŞûÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(²Âîã
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(ÕŞÒÚ
+Qsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+Usquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ

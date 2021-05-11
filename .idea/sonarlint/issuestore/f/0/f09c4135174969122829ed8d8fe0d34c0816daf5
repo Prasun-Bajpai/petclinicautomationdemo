@@ -1,0 +1,15 @@
+
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ëÿ
+Wsquid:UselessImportCheck"5Remove this unused import 'org.openqa.selenium.Keys'.(§Õ
+Csquid:S1125")Remove the literal "false" boolean value.(éƒ÷»úÿÿÿÿ
+[squid:S1126"AReplace this if-then-else statement by a single return statement.(éƒ÷»úÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌŒïÉ
+bsquid:UselessImportCheck";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ
+Vsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(±ÑÛ«
+Vsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(œİ™±
+Msquid:S2201",The return value of "contains" must be used.(…™íÌúÿÿÿÿ8­¹İí/
+Vsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Ï¸óñ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(œªøùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(êÔæ³

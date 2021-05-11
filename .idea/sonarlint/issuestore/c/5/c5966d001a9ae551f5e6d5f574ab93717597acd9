@@ -1,0 +1,10 @@
+
+`squid:S1192"FDefine a constant instead of duplicating this literal "]/td[" 3 times.(¢®€ÿÿÿÿÿ
+’squid:S1192"xDefine a constant instead of duplicating this literal ".//*[@class=\"container xd-container\"]/table/tbody/tr[" 3 times.(¢®€ÿÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(ÕŞÒÚ
+Hsquid:S1068".Remove this unused "PAGE_TITLE" private field.(£¨œ”ıÿÿÿÿ
+ssquid:S1450"^Remove the "telephoneNumber" field and declare it as a local variable in the relevant methods.(„òÂ‚
+\$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(ÕŞÒÚ
+\$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(²Âîã
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(²Âîã
+isquid:S3008"ORename this field "Size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¯°öıÿÿÿÿ

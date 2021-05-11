@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PetClinicUITestSuite">
+              <span class="suite-name border-passed">PetClinicUITestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PetClinicUITestSuite">
+                    <span>C:\Projects\petclinicautomationdemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PetClinicUITestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PetClinicUITestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PetClinicUITestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PetClinicUITestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PetClinicUITestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PetClinicUITestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PetClinicUITestSuite" class="hide-methods passed suite-PetClinicUITestSuite"> (hide)</a> <!-- hide-methods passed suite-PetClinicUITestSuite -->
+                      <a href="#" panel-name="suite-PetClinicUITestSuite" class="show-methods passed suite-PetClinicUITestSuite"> (show)</a> <!-- show-methods passed suite-PetClinicUITestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-PetClinicUITestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PetClinicUITestSuite" title="com.petclinic.tests.PetClinicWorkflowTest" hash-for-method="testIfImageIsSameAsExpected">testIfImageIsSameAsExpected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PetClinicUITestSuite" title="com.petclinic.tests.PetClinicWorkflowTest" hash-for-method="testToFindAllExistingOwners">testToFindAllExistingOwners</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PetClinicUITestSuite" title="com.petclinic.tests.PetClinicWorkflowTest" hash-for-method="testToFindAllVeterinarians">testToFindAllVeterinarians</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PetClinicUITestSuite" title="com.petclinic.tests.PetClinicWorkflowTest" hash-for-method="testToVerifyAddNewOwner">testToVerifyAddNewOwner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PetClinicUITestSuite" title="com.petclinic.tests.PetClinicWorkflowTest" hash-for-method="testToVerifyAddedInformation">testToVerifyAddedInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PetClinicUITestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PetClinicUITestSuite" class="panel PetClinicUITestSuite">
+          <div class="suite-PetClinicUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.petclinic.tests.PetClinicWorkflowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfImageIsSameAsExpected">
+                  </a> <!-- testIfImageIsSameAsExpected -->
+                  <span class="method-name">testIfImageIsSameAsExpected</span>
+                  <em>
+(This test verifies if image is present on welcome page and it's the expected image)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToFindAllExistingOwners">
+                  </a> <!-- testToFindAllExistingOwners -->
+                  <span class="method-name">testToFindAllExistingOwners</span>
+                  <em>
+(This test verifies if all the owners with respect to there telephone numbers in owners page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToFindAllVeterinarians">
+                  </a> <!-- testToFindAllVeterinarians -->
+                  <span class="method-name">testToFindAllVeterinarians</span>
+                  <em>
+(This test verifies if all the list of veterinarians contains all veterinarians names)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToVerifyAddNewOwner">
+                  </a> <!-- testToVerifyAddNewOwner -->
+                  <span class="method-name">testToVerifyAddNewOwner</span>
+                  <em>
+(This test verifies if a new owner can be added via owners page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToVerifyAddedInformation">
+                  </a> <!-- testToVerifyAddedInformation -->
+                  <span class="method-name">testToVerifyAddedInformation</span>
+                  <em>
+(This test verifies the information of a new owner and pet)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetClinicUITestSuite-class-passed -->
+        </div> <!-- panel PetClinicUITestSuite -->
+        <div panel-name="test-xml-PetClinicUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Projects\petclinicautomationdemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;PetClinicUITestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.petclinic.shared.util.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;PetClinic Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.petclinic.tests.PetClinicWorkflowTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PetClinic Tests --&gt;
+&lt;/suite&gt; &lt;!-- PetClinicUITestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PetClinicUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PetClinicUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PetClinic Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PetClinicUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PetClinicUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PetClinicUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PetClinicUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PetClinicUITestSuite');
+function tableData_PetClinicUITestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testToVerifyAddNewOwner')
+data.setCell(0, 2, 'com.petclinic.tests.PetClinicWorkflowTest')
+data.setCell(0, 3, 2209);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testToFindAllExistingOwners')
+data.setCell(1, 2, 'com.petclinic.tests.PetClinicWorkflowTest')
+data.setCell(1, 3, 1522);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testIfImageIsSameAsExpected')
+data.setCell(2, 2, 'com.petclinic.tests.PetClinicWorkflowTest')
+data.setCell(2, 3, 1412);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testToFindAllVeterinarians')
+data.setCell(3, 2, 'com.petclinic.tests.PetClinicWorkflowTest')
+data.setCell(3, 3, 810);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testToVerifyAddedInformation')
+data.setCell(4, 2, 'com.petclinic.tests.PetClinicWorkflowTest')
+data.setCell(4, 3, 437);
+window.suiteTableData['PetClinicUITestSuite']= { tableData: data, tableDiv: 'times-div-PetClinicUITestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-PetClinicUITestSuite">
+              </div> <!-- times-div-PetClinicUITestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PetClinicUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PetClinicUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PetClinicUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PetClinicUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.petclinic.tests.PetClinicWorkflowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testIfImageIsSameAsExpected</span>
+                <span class="method-start">4547 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToFindAllExistingOwners</span>
+                <span class="method-start">5966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToFindAllVeterinarians</span>
+                <span class="method-start">7490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToVerifyAddNewOwner</span>
+                <span class="method-start">8302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToVerifyAddedInformation</span>
+                <span class="method-start">10513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">10950 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

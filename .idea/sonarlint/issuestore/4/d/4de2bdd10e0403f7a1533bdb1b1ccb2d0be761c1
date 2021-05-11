@@ -1,0 +1,17 @@
+
+Fsquid:S1444",Make this "public static driver" field final(ÜçÁÈûÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck"]Make PAGE_LOAD_TIMEOUT a static final constant or non-public and provide accessors if needed.(£ÍÉ
+Dsquid:S1444"*Make this "public static prop" field final(¶İ»şÿÿÿÿ
+msquid:S3008"XRename this field "IMPLICIT_WAIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è–İ—
+ƒ"squid:ClassVariableVisibilityCheck"RMake driver a static final constant or non-public and provide accessors if needed.(ÜçÁÈûÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"PMake prop a static final constant or non-public and provide accessors if needed.(¶İ»şÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck"YMake IMPLICIT_WAIT a static final constant or non-public and provide accessors if needed.(è–İ—
+4squid:S2386"Make member "prop" "protected".(âÅä
+6squid:S3010"!Remove this assignment of "prop".(âÅä
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘×Ã
+Lsquid:S1444"7Make this "public static PAGE_LOAD_TIMEOUT" field final(£ÍÉ
+1squid:S1118"Hide this public constructor.( Ù‚}
+qsquid:S3008"\Rename this field "PAGE_LOAD_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÍÉ
+Hsquid:S1444"3Make this "public static IMPLICIT_WAIT" field final(è–İ—
