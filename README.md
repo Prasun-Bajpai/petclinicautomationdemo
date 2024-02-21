@@ -1,4 +1,4 @@
-Pet Clinic Test Case Automation Demo
+**PET CLINIC TEST CASE AUTOMATION DEMO**
 
 A test case automation project to test to verify :
 1. Welcome page and image on the welcome page
